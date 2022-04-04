@@ -1,6 +1,3 @@
-# Guide-LAMP-Moodle
-Prérequis : Debian net Install 10.4 + hyperviseur + Cmder + Notepad++ (avec plugin Compare), Apache 2.4.38, MariaDB 10.3, PHP7.3, Moodle 3.9 et Git
-
 ## 
 
 Installation Debian en VM
@@ -33,6 +30,10 @@ Configuration réseau
 
 Ajouter dans les fichiers :
 
+/etc/network/interfaces
+
+Untitled
+
 dns-search xxx.moodle.xxx.lan
 
 dns-nameservers 192.168.xxx.xxx 192.168.xxx.xxx
@@ -44,10 +45,6 @@ dns-nameservers 192.168.xxx.xxx 192.168.xxx.xxx
 (redémarrer ssh ou redémarrer VM)
 
 \# dig vega.moodle.xxx.lan
-
-## 
-
-Installation Apache
 
 • # apt-get update
 
